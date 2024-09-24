@@ -2,12 +2,27 @@
     height: 100vh;
     width: 100vw;
 } */
-.comming_soon{
+.comming_soon {
+  
+  /* margin: auto; */
+  /* height: 90vh; */
+  /* width: 90vw; */
+  /* background-image: url("cm_soon.jpeg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    height: 90vh;
-    width: 90vw;
-    background-image: url('/cm_soon.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+}
+img{
+    max-width:100% ;
+    max-height:100% ;
+}
+@media screen and (max-width:400px) {
+    
 }
